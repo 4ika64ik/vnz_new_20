@@ -1,0 +1,42 @@
+.bg-animation {
+    animation: bg-animation 25s ease-in-out infinite;
+    padding: 10px 2px;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 1px 0;
+    color: #337AB7;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 620px) {
+    .bg-animation {
+        padding: 10px 20px;
+        font-size: 26px;
+    }
+}
+@keyframes bg-animation {
+    0% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+    20% {
+        background-size: 150%;
+        background-position: 0 50%;
+    }
+    40% {
+        background-size: 110%;
+        background-position: 20% 80%;
+    }
+    60% {
+        background-size: 160%;
+        background-position: 60% 10%;
+    }
+    80% {
+        background-size: 120%;
+        background-position: 40% 70%;
+    }
+    100% {
+        background-size: 120%;
+        background-position: 50% 50%
+    }
+}
