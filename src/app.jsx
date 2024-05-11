@@ -13,7 +13,7 @@ export default function App() {
     };
 
     // Инициализация пикселя Facebook
-    ReactPixel.init('388751950664047', options);
+    ReactPixel.init('3793394950888500', options);
     ReactPixel.init('3309982329295012', options);
 
     // Отслеживание события PageView при каждом изменении маршрута
